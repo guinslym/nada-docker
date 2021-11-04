@@ -5,7 +5,7 @@ The docker image contains:
 - PHP 7.3
 - MySQL 5.7
 
-Follow these steps to configure NADA and run the docker container.
+Follow these steps to configure NADA (https://github.com/ihsn/nada) and run the docker container.
 
 1. Setup folders to host NADA source and the Docker files
 
