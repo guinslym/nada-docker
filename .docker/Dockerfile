@@ -5,7 +5,7 @@ LABEL MAINTAINER Mehmood Asghar
 COPY php.ini /usr/local/etc/php/
 COPY vhost.conf /etc/apache2/sites-available/000-default.conf
 
-RUN apt-get update && apt-get -y install wget zip && apt-get -y install git
+RUN apt-get update && apt-get -y install wget zip && apt-get -y install git tree vim
 
 RUN ls -l \
     && ls -l /var/www/html
