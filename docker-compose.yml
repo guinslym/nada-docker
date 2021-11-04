@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     image: nada_docker
     ports:
-      - "127.0.0.1:8383:80"
+            - "172.105.110.102:8383:80"
     volumes:
       - ./nada:/var/www/html/nada
     links:
