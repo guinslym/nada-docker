@@ -1,0 +1,14 @@
+---
+- name: "Nada-Playbook"
+  hosts: localhost
+  become: false
+  gather_facts: yes
+  connection: local
+
+  tasks:
+    - name: Test Connection
+      ping:
+    - name: Get Distribution
+      debug: msg="{{ ansible_distribution }}"
+    - name: Get Distribution version
+      debug: msg="{{ ansible_distribution_version }}"
